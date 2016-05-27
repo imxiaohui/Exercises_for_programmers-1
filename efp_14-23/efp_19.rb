@@ -16,9 +16,7 @@ def bmi_calculator
 puts "what is your weight in kilos?"
 weight = gets.chomp.to_f
 
-if weight.is_a? Numeric
- puts "bloo"
-end
+
 
 puts "what is your height in metres? "
 height = gets.chomp.to_f
